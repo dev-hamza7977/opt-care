@@ -1,3 +1,7 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .logo-img{
     width: 25vh;
 }
@@ -7,40 +11,41 @@
     position: absolute;
     left: 0px;
     top: 2px;
-       width: 584px;
-    height: 544px;
+    width: 584px;
+    height:93vh;
     background-repeat: no-repeat;
+    padding: 67px;
 }
 
 .owl-item{
-        width: 100%;
+    width: 100%;
     margin-right: 10px;
-    height: 75vh;
+    height:93vh;
 }
 
 .shape-bg-img{
-    background-color: bisque;
+      background-color: bisque;
     position: absolute;
-    right: 0px;
+    right: 10vh;
     bottom: 0px;
-    width: 458px;
-    height: 478px;
+    width: 435px;
+    height: 481px;
     border-radius: 50% 50% 0px 0px;
+      -webkit-animation: zoom-fade 6s infinite linear;
+    animation: zoom-fade 6s infinite linear;
 }
-
-
 
 .bannerimg-owl-1{
     position: relative;
-    left: -150px;
-    width: 65vh !important ; 
-
+    left: -228px;
+    width: 90vh !important;
+    top: -20vh;
 }
 
 .pattern-img{
     position: relative;
-    left: 265px;
-    top: -540px;
+    left: 35.5vh;
+    top: -85.5vh;
     width: 28vh !important;
     z-index: -1;
 }
@@ -48,38 +53,440 @@
 .eyecare-sen-1{
     color: rgb(239, 159, 61);
     font-size: 3.5vh;
-   /* text-align: start; */
+   
 }
 
 .eyecare-heading{
     font-size: 8vh;
-    /* font-family: monospace; */
-
 }
 
 .desc-eyecare{
     font-size: 2.8vh;
 }
 
-.eyecare-heading,.desc-eyecare,.eyecare-sen-1{
-
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
 .owl-contact-bbtn{
     width: 25vh;
 }
 
-.fa-solid{
+.fa-carousel{
     background-color: antiquewhite;
     padding: 25px;
-    /* border: 2px; */
     border-radius: 50px ;
     font-size: 3vh;
-color: rgb(156, 116, 63);   
- box-shadow:0 4px 8px rgb(249 143 60 / 66%);
+    color: rgb(156, 116, 63);   
+    box-shadow:0 4px 8px rgb(249 143 60 / 66%);
+}
+
+.bannerimg-owl-2{
+    position: relative;
+    left: -58px;
+    width: 67vh !important;
+    top: -164px;
+} 
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next{
+    font-size: 18vh;
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    position: relative;
+    left: 190vh;
+}
+
+.owl-carousel .owl-nav {
+    position: absolute;
+    top:15vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.owl-dots{
+    display: none;
+}
+
+.section-cards-1{
+    box-shadow:0 4px 8px rgba(109, 92, 79, 0.66);
+}
+
+.benefits-text-tit{
+    font-size: 5vh;
+    font-weight: bold;
+}
+
+.desc-benefits{
+    font-size: 3vh;
+    color: rgb(89, 74, 82);
+}
+
+.foa-card{
+    font-size: 6vh;
+    padding: 20px 20px 0px 20px ;
+    color: rgb(175, 131, 79);   
+}
+
+.card-benefits,.card-services{
+    border: none;
+    background-color: aliceblue;
+}
+
+.card-benefits-tit,.card-services-tit{
+    font-weight: bold;
+    font-size: 3.5vh;
+}
+
+.card-benefits-desc,.card-services-desc{
+    font-size: 2.5vh;
+}
+
+.tit-abt-us{
+ font-size: 15vh;
+    font-weight: bold;
+    background: -webkit-linear-gradient(0deg, #ffd4b2, #c3fff7 100%);
+    color: transparent !important;
+    background-clip: text !important;
+    position: relative;
+    top: 14.5vh;
+    left: 14.7vh;
+    z-index: -1;
+}
+
+
+.pattern-img-2 {
+    position: relative;
+    top: -25vh;
+    left: -5vh;
+    z-index: -1;
+  
+}
+
+.abt-img-txt{
+    background-color: bisque;
+    padding: 25px 30px 25px 30px;
+    border-radius: 30px;
+    width: 35vh;
+    height: 35vh;
+    text-align: center;
+    font-size: 3.5vh;
+    color: #7c461d;
+    position: absolute;
+    top: 232vh;
+    right: 115vh;
+    box-shadow:0 4px 8px rgba(109, 92, 79, 0.66);
 
 }
+
+.num-text-abt{
+    font-size: 10vh;
+}
+
+.def-abt-us{
+    font-size: 2.5vh;
+    color:rgb(50, 67, 81);
+    text-align: justify;
+}
+
+.sub-title-abtus{
+font-size: 6.5vh;
+font-weight: bold;
+}
+
+.tit-vision,.tit-mission{
+    font-size: 7vh;
+}
+
+.list-vision-mission
+{
+    font-size: 3vh;
+    list-style:none
+}
+
+ul li:before {
+  content: '✓ ';
+  font-weight: bolder;
+  color: #ee962e;
+}
+
+.services-bg-img-1{
+    z-index: 0;
+    width: 50vh;
+    height: 60vh;
+    background-repeat: no-repeat;
+    /* padding: 67px; */
+    position: absolute;
+    left: 156.5vh;
+}
+
+.our-services-sec{
+    background-color: #f2f4f5;
+}
+
+.services-tit{
+    font-size: 15vh ;
+    text-align: center;
+   background: -webkit-linear-gradient(0deg, #d2bba8 30%, #a9dad5 70%);
+    color: transparent !important;
+    background-clip: text !important;
+    font-weight: bold;
+}
+
+.global-title{
+        font-size: 7vh;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    top: -16vh;
+}
+
+.services-card-sec{
+   padding: 0px 22vh;
+   z-index: 1;
+}
+
+.text-paeditaric{
+   font-size: 21.6px;
+}
+
+.services-desc{
+    position: relative;
+    top: -7vh;
+    padding: 7vh;
+} 
+
+.surgical-procedures-title{
+    font-size: 5vh;
+    font-size: 7vh;
+    font-weight: bold;
+}
+
+.sugrical-desc{
+    font-size: 2.5vh;
+    text-align: justify;
+    padding-top: 22px;
+    padding-right: 20px;
+}
+.doc-img{    
+    border-radius: 50px;
+    padding-left: 25px;
+}
+.doc-img:hover{    
+    width: 80vh;
+}
+
+.sugrical-list{
+    list-style: none;
+    font-size: 2.5vh;
+}
+
+.our-services-sec{
+    height: 124vh;
+}
+
+@media only screen and (max-width: 800px) {
+ 
+    .bg-owl-img-1{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 50vh;
+        height: 70vh;
+        background-repeat: no-repeat;
+        padding: 25px;
+    }
+
+    .owl-item{
+        width: 100%;
+        margin-right: 10px;
+        height:70vh;
+    }
+
+    .bannerimg-owl-1,.pattern-img,.shape-bg-img,.bannerimg-owl-2{
+        display: none;
+    }
+    
+    .eyecare-sen-1{
+        color: rgb(239, 159, 61);
+        font-size: 2.5vh;
+   
+    }
+
+    .eyecare-heading{
+        font-size: 4vh;
+    }
+
+    .desc-eyecare{
+        font-size: 2vh;
+    }
+
+    .eyecare-heading,.desc-eyecare,.eyecare-sen-1{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .owl-contact-bbtn{
+        width: 25vh;
+    }
+
+    .fa-carouse{        
+        background-color: antiquewhite;
+        padding: 20px;
+        border-radius: 50px ;
+        font-size: 2vh;
+        color: rgb(156, 116, 63);   
+        box-shadow:0 4px 8px rgb(249 143 60 / 66%);
+    }
+ 
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel .owl-nav button.owl-next{
+        font-size: 10vh;
+    }
+
+    .owl-carousel .owl-nav button.owl-next{
+        position: relative;
+        left: 45vh;
+    }
+
+    .owl-carousel .owl-nav {
+        position: absolute;
+        top:18vh;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .foa-card{
+        font-size: 6vh;
+        padding: 20px 20px 0px 20px;
+        color: rgb(175, 131, 79);  
+        background-color: none; 
+    }
+
+    .tit-abt-us {
+    font-size: 7vh;
+    font-weight: bold;
+    background: -webkit-linear-gradient(0deg, #ffd4b2, #c3fff7 100%);
+    color: transparent !important;
+    background-clip: text !important;
+    position: relative;
+    top: 72vh;
+    left: -3.3vh;
+    z-index: -1;
+    }
+
+
+    .pattern-img-2 {
+    position: relative;
+    top: -25vh;
+    left: -5vh;
+    z-index: -1;
+      
+    }
+
+    .abt-img-1{
+        width: 50vh;
+    }
+
+    .abt-img-txt {
+    background-color: bisque;
+        padding: 25px 30px 25px 30px;
+        border-radius: 30px;
+        width: 25vh;
+        height: 25vh;
+        text-align: center;
+        color: #7c461d;
+        position: absolute;
+        top: 270vh;
+        right: 0.8vh;
+        font-size: 3vh;
+    }
+    .num-text-abt{
+        font-size: 5vh;
+    }
+
+    .tit-vision,.tit-mission{
+        font-size: 4.5vh;
+    }
+
+    .list-vision-mission
+    {
+        font-size: 3vh;
+        list-style:none;
+        padding: 0px !important;
+    }
+
+    ul li:before {
+        content: '✓';
+        font-weight: bolder;
+        color: #ee962e;
+    }
+
+    .services-bg-img-1{
+        z-index: 0;
+        width: 50vh;
+        height: 60vh;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 4.3vh;
+    }
+
+    .our-services-sec{
+        background-color: #f2f4f5;
+    }
+
+    .services-tit {
+        font-size: 11vh;
+        text-align: center;
+        background: -webkit-linear-gradient(0deg, #d2bba8 30%, #a9dad5 70%);
+        color: transparent !important;
+        background-clip: text !important;
+        font-weight: bold;
+    }
+
+    .global-title{
+    font-size: 4.5vh;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    top: -14vh;
+    }   
+
+    .services-card-sec {
+        padding: 0;
+        z-index: 1;
+    }
+
+    .text-paeditaric{
+        font-size: 21.6px;
+    }   
+
+    .services-desc {
+        position: relative;
+        top: 0vh;
+        padding: 0vh;
+    }
+
+    .surgical-procedures-title{
+        font-size: 5vh;
+        font-size: 7vh;
+        font-weight: bold;
+    }
+
+    .sugrical-desc{
+        font-size: 2.5vh;
+        text-align: justify;
+        padding-top: 22px;
+        padding-right: 20px;
+    }
+    .doc-img{    
+        border-radius: 50px;
+        padding-left: 0px;
+    }   
+
+    .sugrical-list{
+        list-style: none;
+        font-size: 2.5vh;
+    }
+
+}
+
    
 
    
