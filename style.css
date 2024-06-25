@@ -353,13 +353,13 @@ font-size: 3vh;
 .why-choose-us{
     background-color: #f2f4f500;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 852px) {
  
     .bg-owl-img-1{
         position: absolute;
         left: 0px;
         top: 0px;
-        width: 50vh;
+        width: 44vh;
         height: 70vh;
         background-repeat: no-repeat;
         padding: 25px;
@@ -397,13 +397,13 @@ font-size: 3vh;
         width: 25vh;
     }
 
-    .fa-carouse{        
-        background-color: antiquewhite;
-        padding: 20px;
-        border-radius: 50px ;
-        font-size: 2vh;
-        color: rgb(156, 116, 63);   
-        box-shadow:0 4px 8px rgb(249 143 60 / 66%);
+    .fa-carousel{        
+           background-color: antiquewhite;
+    padding: 12px;
+    border-radius: 50px;
+    font-size: 3vh;
+    color: rgb(156, 116, 63);
+    box-shadow: 0 4px 8px rgb(249 143 60 / 66%);
     }
  
     .owl-carousel .owl-nav button.owl-prev,
@@ -412,9 +412,10 @@ font-size: 3vh;
     }
 
     .owl-carousel .owl-nav button.owl-next{
-        position: relative;
-        left: 45vh;
+               position: relative;
+        left: 38vh;
     }
+
 
     .owl-carousel .owl-nav {
         position: absolute;
@@ -452,22 +453,24 @@ font-size: 3vh;
     }
 
     .abt-img-1{
-        width: 50vh;
+        width: 45vh;
     }
 
     .abt-img-txt {
-    background-color: bisque;
-        padding: 25px 30px 25px 30px;
+     background-color: bisque;
+        padding: 10px 30px 10px 30px;
         border-radius: 30px;
-        width: 25vh;
-        height: 25vh;
+        width: 20vh;
+        height: 20vh;
         text-align: center;
         color: #7c461d;
         position: absolute;
-        top: 270vh;
+        top: 289vh;
         right: 0.8vh;
-        font-size: 3vh;
+        font-size: 2vh;
+    
     }
+
     .num-text-abt{
         font-size: 5vh;
     }
@@ -490,20 +493,22 @@ font-size: 3vh;
     }
 
     .services-bg-img-1{
-        z-index: 0;
+    z-index: 0;
         width: 50vh;
         height: 60vh;
         background-repeat: no-repeat;
         position: absolute;
-        left: 4.3vh;
+        left: -2.7vh;
     }
+
+
 
     .our-services-sec{
         background-color: #f2f4f5;
     }
 
-    .services-tit {
-        font-size: 11vh;
+  .services-tit {
+        font-size: 8vh;
         text-align: center;
         background: -webkit-linear-gradient(0deg, #d2bba8 30%, #a9dad5 70%);
         color: transparent !important;
@@ -511,13 +516,18 @@ font-size: 3vh;
         font-weight: bold;
     }
 
+    .global-div{
+        height: 5px;
+    }
+
     .global-title{
-    font-size: 4.5vh;
-    text-align: center;
-    z-index: 1;
-    position: relative;
-    top: -14vh;
-    }   
+               font-size: 4vh;
+        text-align: center;
+        z-index: 1;
+        position: relative;
+        top: -14vh;
+    }
+    
 
     .services-card-sec {
         padding: 0;
@@ -567,11 +577,13 @@ font-size: 3vh;
     }
 
     .pattern-services-img-2 {
-        position: absolute;
+               position: absolute;
         left: 0vh;
-        width: 25vh;
-        top: 441vh;
+        width: 21vh;
+        top: 488vh;
     }
+
+
 
     .orange-pallete{
             margin-top: 134vh;
