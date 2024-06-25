@@ -11,6 +11,7 @@
         integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -53,7 +54,7 @@
     </section>
 
     <section class="container-fluid owl-banner-1">
-        <div class="owl-carousel owl-theme">
+        <div class="owl-carousel owl-one owl-theme">
             <div class="item">
                 <div class="row g-0">
                     <div class="col-lg-6">
@@ -73,6 +74,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="col-lg-6">
                         <div class="shape-bg-img mx-5">
                             <img src="images/banner-1-child.png" class="bannerimg-owl-1 pt-2" srcset="">
@@ -82,8 +84,8 @@
                 </div>
             </div>
 
-            <div class="item">
-                <div class="row g-0">
+            <div class="item bg-warning">
+                <div class="row g-0 bg-warning">
                     <div class="col-lg-6">
                         <div class="bg-owl-img-1 d-flex flex-column justify-content-center">
                             <h1 class="eyecare-sen-1">Eye Care & Holistic Center</h1>
@@ -101,6 +103,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="col-lg-6">
                         <div class="shape-bg-img mx-5">
                             <img src="images/banner-2-child.png" class="bannerimg-owl-2" srcset="">
@@ -372,6 +375,75 @@
         </div>
     </section>
 
+    <section class="container-fluid px-xxl-4 sec-testimonials">
+        <h1 class="tit-testimonials text-center">Testimonials</h1>
+        <p class="sub-tit-testimonials text-center">What Our Client Say
+            <br>About Optcare
+        </p>
+        <div class="bg-img-owl-2">
+            <div class="owl-carousel owl-two owl-theme">
+                <div class="item">
+                    <div class="row text-center">
+                        <div class="col-lg-6">
+                            <p class="test-num-owl-desc">99</p>
+                            <p class="test-owl-desc">Adipisicing elit sed do eiusmodim tempor incid labore etax dolore
+                                magna aliqua enim
+                                minium quis veniam nostrud
+                                exercition ulamco laboris nisar aliquip commodo consequat duis aute irure dolor in
+                                reprehenderit in vol uptate velit
+                                esse.
+                            <p class="author-name"> Rachel McAdams <br> <span class="author-post"> Electrician </span>
+
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="test-num-owl-desc">99</p>
+                            <p class="test-owl-desc">Adipisicing elit sed do eiusmodim tempor incid labore etax dolore
+                                magna aliqua enim
+                                minium quis veniam nostrud
+                                exercition ulamco laboris nisar aliquip commodo consequat duis aute irure dolor in
+                                reprehenderit in vol uptate velit
+                                esse.
+                            </p>
+                            <p class="author-name"> Rachel McAdams <br> <span class="author-post"> Electrician </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row text-center">
+                        <div class="col-lg-6">
+                            <p class="test-num-owl-desc">99</p>
+                            <p class="test-owl-desc">Adipisicing elit sed do eiusmodim tempor incid labore etax dolore
+                                magna aliqua enim
+                                minium quis veniam nostrud
+                                exercition ulamco laboris nisar aliquip commodo consequat duis aute irure dolor in
+                                reprehenderit in vol uptate velit
+                                esse.
+                            <p class="author-name"> Rachel McAdams <br> <span class="author-post"> Electrician </span>
+
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="test-num-owl-desc">99</p>
+                            <p class="test-owl-desc">Adipisicing elit sed do eiusmodim tempor incid labore etax dolore
+                                magna aliqua enim
+                                minium quis veniam nostrud
+                                exercition ulamco laboris nisar aliquip commodo consequat duis aute irure dolor in
+                                reprehenderit in vol uptate velit
+                                esse.
+                            </p>
+                            <p class="author-name"> Rachel McAdams <br> <span class="author-post"> Electrician </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
         </script>
@@ -385,10 +457,14 @@
 
 
     <script>
-        $('.owl-carousel').owlCarousel({
+        $('.owl-one').owlCarousel({
             loop: true,
+            animateIn: 'animate__hinge',
+            // animateOut: 'animate__flipOutX',
+            items: 1,
             margin: 1,
-            responsiveClass: true,
+            autoplay: true,
+            smartSpeed: 350,
             responsive: {
                 0: {
                     items: 1,
@@ -406,6 +482,23 @@
             }
         })
 
+
+        $('.owl-two').owlCarousel({
+            loop: true,
+            margin: 10,
+            // nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
     </script>
 </body>
 

@@ -17,7 +17,7 @@ body{
     padding: 67px;
 }
 
-.owl-item{
+.owl-one .owl-item{
     width: 100%;
     margin-right: 10px;
     height:93vh;
@@ -84,24 +84,24 @@ body{
     top: -164px;
 } 
 
-.owl-carousel .owl-nav button.owl-prev,
-.owl-carousel .owl-nav button.owl-next{
+.owl-one .owl-nav button.owl-prev,
+.owl-one .owl-nav button.owl-next{
     font-size: 18vh;
 }
 
-.owl-carousel .owl-nav button.owl-next{
+.owl-one .owl-nav button.owl-next{
     position: relative;
     left: 190vh;
 }
 
-.owl-carousel .owl-nav {
+.owl-one .owl-nav {
     position: absolute;
     top:15vh;
     display: flex;
     justify-content: space-between;
 }
 
-.owl-dots{
+ .owl-one .owl-dots{
     display: none;
 }
 
@@ -353,6 +353,73 @@ font-size: 3vh;
 .why-choose-us{
     background-color: #f2f4f500;
 }
+
+.bg-img-owl-2{
+        background-image: url(images/owl-2-bg-img.png);
+    position: relative;
+    left: 100px;
+    top: 0px;
+    width: 86%;
+        height: 65vh;
+
+    background-repeat: no-repeat;
+    
+}   
+
+.tit-testimonials{
+       background: -webkit-linear-gradient(0deg, #ffd4b2, #c3fff7 100%);
+    color: transparent !important;
+    background-clip: text !important;
+    font-size: 13vh;
+    font-weight: bold;
+    position: relative;
+    top: 9vh;
+    z-index: -1;
+}
+
+.sub-tit-testimonials{
+        font-size: 6vh;
+    font-weight: bold
+}
+
+.test-num-owl-desc{
+    font-size: 15vh;
+}
+
+.test-owl-desc{
+        font-size: 2.5vh;
+}
+
+.author-name{
+    font-size: 3vh;
+}
+
+.author-post{
+    font-size: 2.5vh;
+}
+
+.test-num-owl-desc{
+    color: #ffc107;
+}
+
+.owl-two .owl-dots {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.owl-two .owl-dots .owl-dot {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin: 5px;
+    background: rgb(211, 210, 210); /* Dot background color for carousel one */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.owl-two .owl-dots .owl-dot.active {
+    background: aqua; /* Active dot background color for carousel one */
+}
 @media only screen and (max-width: 852px) {
  
     .bg-owl-img-1{
@@ -365,7 +432,7 @@ font-size: 3vh;
         padding: 25px;
     }
 
-    .owl-item{
+    .owl-one .owl-item{
         width: 100%;
         margin-right: 10px;
         height:70vh;
@@ -406,18 +473,18 @@ font-size: 3vh;
     box-shadow: 0 4px 8px rgb(249 143 60 / 66%);
     }
  
-    .owl-carousel .owl-nav button.owl-prev,
-    .owl-carousel .owl-nav button.owl-next{
+    .owl-one .owl-nav button.owl-prev,
+    .owl-one .owl-nav button.owl-next{
         font-size: 10vh;
     }
 
-    .owl-carousel .owl-nav button.owl-next{
+    .owl-one .owl-nav button.owl-next{
                position: relative;
         left: 38vh;
     }
 
 
-    .owl-carousel .owl-nav {
+    .owl-one .owl-nav {
         position: absolute;
         top:18vh;
         display: flex;
@@ -629,6 +696,71 @@ font-size: 3vh;
 .desc-choose{
         font-size: 3vh;
         padding: 0px 4vh;
+}
+
+     .bg-img-owl-2 {
+        background-image: url(images/owl-2-bg-img.png);
+        position: relative;
+        left: 4px;
+        top: 0px;
+        width: 45vh;
+        height: 75vh;
+        background-repeat: no-repeat;
+    }
+
+       .tit-testimonials {
+        background: -webkit-linear-gradient(0deg, #ffd4b2, #c3fff7 100%);
+        color: transparent !important;
+        background-clip: text !important;
+        font-size: 6.5vh;
+        font-weight: bold;
+        position: relative;
+        top: 6vh;
+        z-index: -1;}
+        
+
+.sub-tit-testimonials{
+        font-size: 6vh;
+    font-weight: bold
+}
+
+.test-num-owl-desc{
+    font-size: 15vh;
+}
+
+.test-owl-desc{
+        font-size: 2.5vh;
+}
+
+.author-name{
+    font-size: 3vh;
+}
+
+.author-post{
+    font-size: 2.5vh;
+}
+
+.test-num-owl-desc{
+    color: #ffc107;
+}
+
+.owl-two .owl-dots {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.owl-two .owl-dots .owl-dot {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin: 5px;
+    background: rgb(211, 210, 210); /* Dot background color for carousel one */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.owl-two .owl-dots .owl-dot.active {
+    background: aqua; /* Active dot background color for carousel one */
 }
 
 }
