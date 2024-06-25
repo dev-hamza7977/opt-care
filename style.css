@@ -244,12 +244,13 @@ ul li:before {
 }
 
 .text-paeditaric{
-   font-size: 21.6px;
+ font-size: 24.5px;
+ padding: 2px;
 }
 
 .services-desc{
     position: relative;
-    top: -7vh;
+    top: -7.5vh;
     padding: 7vh;
 } 
 
@@ -282,6 +283,76 @@ ul li:before {
     height: 124vh;
 }
 
+.pattern-services-img-2 {
+    position: absolute;
+    left: 0vh;
+    width: 30vh;
+    top: 312vh;
+        /* -webkit-animation: zoom-fade 6s infinite linear; */
+     animation: fadeIn 5s;
+}
+
+.orange-pallete{
+    background-color: bisque;
+    /* z-index: -1; */
+}
+
+.fa-orange-pallete{
+       font-size: 14vh;
+    padding-right: 20px;
+    color: #514433
+
+}
+
+.orange-pallete-text{
+    font-size: 25px;
+    color:rgb(176, 131, 71);
+
+}
+
+.number-orange-pallete{
+    font-size: 8vh;
+    font-weight: bold;
+}
+
+.choose-us-bg-img{
+    width: 100vh;
+        height: 90.5vh;
+
+}
+
+.tit-choose-us{
+    background: -webkit-linear-gradient(0deg, #ffd4b2, #c3fff7 100%);
+    color: transparent !important;
+    background-clip: text !important;
+    font-size: 13vh;
+    font-weight: bold;
+    position: relative;
+    top: 8vh;
+    left: -25vh;
+    z-index: -1;
+}
+.sub-tit-choose{
+ font-size: 8vh;
+    font-weight: bold;
+    /* margin-left: -70px; */
+}
+
+.desc-choose{
+        font-size: 3vh;
+}
+
+.quallity-div-2{
+    margin-left: 5vh;
+}
+
+.desc-quality{
+font-size: 3vh;
+}
+
+.why-choose-us{
+    background-color: #f2f4f500;
+}
 @media only screen and (max-width: 800px) {
  
     .bg-owl-img-1{
@@ -459,9 +530,11 @@ ul li:before {
 
     .services-desc {
         position: relative;
-        top: 0vh;
-        padding: 0vh;
+        top: -80vh;
+        padding: 80vh 20px 0px 20px;
+        height: 200vh;
     }
+    
 
     .surgical-procedures-title{
         font-size: 5vh;
@@ -485,7 +558,65 @@ ul li:before {
         font-size: 2.5vh;
     }
 
+    .card-services{
+        width: 35vh;
+    }
+
+    .services-card-sec-inner{
+        margin: 0px 20vh;
+    }
+
+    .pattern-services-img-2 {
+        position: absolute;
+        left: 0vh;
+        width: 25vh;
+        top: 441vh;
+    }
+
+    .orange-pallete{
+            margin-top: 134vh;
+    }
+
+    .choose-us-bg-img {
+    width: 100vh;
+    height: 50vh;}
+
+       .tit-choose-us {
+        background: -webkit-linear-gradient(0deg, #ffd4b2, #c3fff7 100%);
+        color: transparent !important;
+        background-clip: text !important;
+        font-size: 6.6vh;
+        font-weight: bold;
+        position: relative;
+        top: 5vh;
+        left: 0vh;
+        z-index: -1;
+        padding-left: 10px;
+    }
+
+
+    .sub-tit-choose {
+   font-size: 3.5vh;
+    font-weight: bold;
+    padding: 0px 4vh;
+    }
+
+    .quality-div{
+    margin-left: 0vh;
+    padding: 0px 4vh;
+    }
+
+.quallity-div-2 {
+    margin-left: 0vh;
 }
+
+.desc-choose{
+        font-size: 3vh;
+        padding: 0px 4vh;
+}
+
+}
+
 
    
 
