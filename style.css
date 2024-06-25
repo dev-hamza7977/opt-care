@@ -511,8 +511,8 @@ font-size: 3vh;
         background-color: #f2f4f5;
     }
 
-  .services-tit {
-        font-size: 6vh;
+    .services-tit {
+        font-size: 7vh;
         text-align: center;
         background: -webkit-linear-gradient(0deg, #d2bba8 30%, #a9dad5 70%);
         color: transparent !important;
@@ -524,12 +524,12 @@ font-size: 3vh;
         height: 5px;
     }
 
-    .global-title{
-               font-size: 4vh;
+      .global-title {
+        font-size: 4vh;
         text-align: center;
         z-index: 1;
         position: relative;
-        top: -14vh;
+        top: -8vh;
     }
     
 
@@ -601,11 +601,11 @@ font-size: 3vh;
         background: -webkit-linear-gradient(0deg, #ffd4b2, #c3fff7 100%);
         color: transparent !important;
         background-clip: text !important;
-        font-size: 5.5vh;
+        font-size: 6vh;
         font-weight: bold;
         position: relative;
         top: 4vh;
-        left: 0vh;
+        left: 1vh;
         z-index: -1;
         padding-left: 10px;
     }
