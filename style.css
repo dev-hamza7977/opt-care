@@ -605,7 +605,7 @@ font-size: 3vh;
         font-weight: bold;
         position: relative;
         top: 4vh;
-        left: 1vh;
+        left: 0vh;
         z-index: -1;
         padding-left: 10px;
     }
