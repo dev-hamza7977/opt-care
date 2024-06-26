@@ -420,6 +420,127 @@ font-size: 3vh;
 .owl-two .owl-dots .owl-dot.active {
     background: aqua; /* Active dot background color for carousel one */
 }
+
+.emergency-help-sec{
+    background-color: #111821;
+}
+
+.pattern-emergency-bg{
+    /* transform: rotateY(180deg); */
+    position: absolute;
+    left: 0vh;
+    width: 40vh;
+}
+.title-emergency-help {
+        background: -webkit-linear-gradient(0deg, #281c12, #44847b 100%);
+    color: transparent !important;
+    background-clip: text !important;
+    font-size: 13vh;
+    font-weight: bold;
+    position: relative;
+    top: 9vh;
+    z-index: 0;
+}
+.sub-tit-emergency{
+    font-size: 6vh;
+    font-weight: bold;
+    position: relative;
+    /* top: 0; */
+    /* left: 0; */
+    z-index: 2;
+    color: #bfd3e4;
+    }
+.number-emergency {
+    font-size: 6vh;
+    color:#ffe874;
+    }
+
+.specs-bg-img{
+    position: absolute;
+    left: 91vh;
+    top: 663vh;
+}
+
+.tit-appoinment-form {
+    text-align: center;
+    font-size: 5vh;
+    padding: 5vh;
+    background: rgb(255 255 255 / 12%);
+    border-radius: 5vh;
+}
+
+.appointment-form {
+    border-radius: 5.5vh;
+    background-color: white;
+    position: relative;
+    top: -20vh;
+    box-shadow: 0 4px 8px rgba(109, 92, 79, 0.66);
+}
+
+.emergency-help-sec {
+    background-color: #111821;
+    height: 75vh;}
+
+.tit-appoinment-form {
+    text-align: center;
+    font-size: 4vh;
+    padding: 4vh;
+    background: #2e343c;
+    border-top-left-radius: 5vh;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 5vh;
+    color: aliceblue;
+    font-weight: bold;}
+
+
+.youtube-vid{
+    padding: 10px;
+    background-color: #bfd3e4;
+    position: relative;
+    top: -20vh;
+    border-radius: 5vh;
+    box-shadow: 0 1px 4px rgba(109, 92, 79, 0.66);}
+
+.optha-tit {
+    font-size: 5.5vh;
+    text-align: left;
+    background: -webkit-linear-gradient(0deg, #d2bba8 30%, #a9dad5 70%);
+    color: transparent !important;
+    background-clip: text !important;
+    font-weight: bold;}
+
+.sub-tit-optha {
+    font-size: 4vh;
+    font-weight: bold;
+    margin-top: -35px;
+}
+.btn-optha {
+    /* height: 4vh; */
+    font-size: 3vh;
+
+}
+
+.name-doc{
+    background: aliceblue;
+    width: 32vh;
+    padding: 20px;
+    margin-top: -20vh;
+    margin-left: 25vh;
+    /* z-index: 1; */
+    position: absolute;
+    font-weight: bold;
+    font-size: 3vh;
+    border-radius: 2vh;
+
+
+}
+
+.doc-post{
+    font-size: 2.5vh;
+    font-weight: normal;
+}
+
 @media only screen and (max-width: 852px) {
  
     .bg-owl-img-1{
@@ -698,15 +819,15 @@ font-size: 3vh;
         padding: 0px 4vh;
 }
 
-     .bg-img-owl-2 {
+       .bg-img-owl-2 {
         background-image: url(images/owl-2-bg-img.png);
         position: relative;
         left: 4px;
         top: 0px;
         width: 45vh;
-        height: 75vh;
-        background-repeat: no-repeat;
-    }
+        height: 130vh;
+        background-repeat: no-repeat;}
+
 
        .tit-testimonials {
         background: -webkit-linear-gradient(0deg, #ffd4b2, #c3fff7 100%);
@@ -763,9 +884,90 @@ font-size: 3vh;
     background: aqua; /* Active dot background color for carousel one */
 }
 
+    .specs-bg-img {
+        position: absolute;
+        left: 18vh;
+        top: 1200vh;
+        width: 13vh;
+    }
+
+.title-emergency-help {
+    background: -webkit-linear-gradient(0deg, #281c12, #44847b 100%);
+    color: transparent !important;
+    background-clip: text !important;
+    font-size: 7vh;
+    font-weight: bold;
+    position: relative;
+    top: 9vh;
+    z-index: 0;
 }
 
+    .sub-tit-emergency {
+        font-size: 3vh;
+        font-weight: bold;
+        position: relative;
+        /* top: 0; */
+        /* left: 0; */
+        z-index: 2;
+        color: #bfd3e4;
+        padding: 0px 20px;
+    }
 
-   
+     .number-emergency {
+        font-size: 3vh;
+        color: #ffe874;
+        padding-bottom: 20px;
+        margin: 0px;
+    }
 
+.appointment-form {
+    border-radius: 5.5vh;
+    background-color: white;
+    position: relative;
+    top: -26vh;
+    box-shadow: 0 4px 8px rgba(109, 92, 79, 0.66);
+ }
+
+    .youtube-vid {
+    padding: 10px;
+    background-color: #bfd3e4;
+    position: relative;
+    top: -25vh;
+    border-radius: 5vh;
+    box-shadow: 0 1px 4px rgba(109, 92, 79, 0.66);
+    width: 45vh;}
+
+    
+.col-optha-1-yt{
+height: 50vh;    
+}
+
+.name-doc {
+    background: aliceblue;
+    width: 32vh;
+    padding: 20px;
+    margin-top: -20vh;
+    margin-left: 7vh;
+    /* z-index: 1; */
+    position: absolute;
+    font-weight: bold;
+    font-size: 3vh;
+    border-radius: 2vh;}
+
+.sub-tit-optha {
+    font-size: 4vh;
+    font-weight: bold;
+    margin-top: -35px;
+}
+
+.optha-tit {
+    font-size: 5.5vh;
+    text-align: left;
+    background: -webkit-linear-gradient(0deg, #d2bba8 30%, #a9dad5 70%);
+    color: transparent !important;
+    background-clip: text !important;
+    font-weight: bold;
+}
+
+}
    
