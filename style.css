@@ -503,7 +503,7 @@ font-size: 3vh;
     box-shadow: 0 1px 4px rgba(109, 92, 79, 0.66);}
 
 .optha-tit {
-    font-size: 5.5vh;
+    font-size: 15vh;
     text-align: left;
     background: -webkit-linear-gradient(0deg, #d2bba8 30%, #a9dad5 70%);
     color: transparent !important;
@@ -511,9 +511,9 @@ font-size: 3vh;
     font-weight: bold;}
 
 .sub-tit-optha {
-    font-size: 4vh;
+    font-size: 5vh;
     font-weight: bold;
-    margin-top: -35px;
+    margin-top: -55px;
 }
 .btn-optha {
     /* height: 4vh; */
