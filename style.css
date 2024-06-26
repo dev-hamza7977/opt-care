@@ -928,15 +928,15 @@ font-size: 3vh;
     box-shadow: 0 4px 8px rgba(109, 92, 79, 0.66);
  }
 
-    .youtube-vid {
-    padding: 10px;
-    background-color: #bfd3e4;
-    position: relative;
-    top: -25vh;
-    border-radius: 5vh;
-    box-shadow: 0 1px 4px rgba(109, 92, 79, 0.66);
-    width: 45vh;}
-
+.youtube-vid {
+        padding: 10px;
+        background-color: #bfd3e4;
+        position: relative;
+        top: -25vh;
+        border-radius: 5vh;
+        box-shadow: 0 1px 4px rgba(109, 92, 79, 0.66);
+        width: 45vh;
+    }
     
 .col-optha-1-yt{
 height: 50vh;    
@@ -967,6 +967,10 @@ height: 50vh;
     color: transparent !important;
     background-clip: text !important;
     font-weight: bold;
+}
+
+.op-doc-img{
+    padding-top: 20px;
 }
 
 }
