@@ -634,7 +634,7 @@ font-size: 3vh;
 }
 
 .card-body-articles{
-        position: relative;
+    position: relative;
     left: 20px;
     top: -71px;
     background-color: aliceblue;
@@ -650,6 +650,51 @@ font-size: 3vh;
 
 .card-title-art{
     width: 13vh;
+}
+
+.heading-contact-hours {
+    background: antiquewhite;
+    padding: 3vh;
+    border-top-left-radius: 5vh;
+    border-top-right-radius: 5vh;
+    color: #008e8d;
+    font-weight: bold;
+    font-size: 5vh;}
+
+
+.contact-card {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5vh;
+    position: relative;
+    top: -100vh;
+    width: 43vh;
+    left: -7px;
+    /* height: 44vh; */
+}
+
+
+.contact-time-list{
+    list-style: none;
+    font-size: 2.5vh;
+}
+
+.text-contact
+{
+    font-size: 2vh;
+}
+
+.foa-contact-sec {
+    font-size: 3vh;
+    color: #ee962e;
+}
+
+.contact-number-heading{
+    font-size: 4vh;
+}
+
+.place-card .place-card-large{
+    display: none;
 }
 @media only screen and (max-width: 852px) {
  
@@ -1135,5 +1180,41 @@ height: 50vh;
     width: 13vh;
 }
 
+.heading-contact-hours {
+    background: antiquewhite;
+    padding: 2vh;
+    border-top-left-radius: 5vh;
+    border-top-right-radius: 5vh;
+    color: #008e8d;
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+.contact-time-list {
+    list-style: none;
+    font-size: 1.78vh;
+    padding: 0px;
+}
+
+.foa-contact-sec {
+    font-size: 2vh;
+    color: #ee962e;
+}
+
+.contact-card {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5vh;
+    position: relative;
+    top: -90vh;
+    width: 43vh;
+    left: -7px;
+    height: 75vh;
+}
+
+    .map {
+        width: 47.5vh;
+        height: 100vh;
+    }
 }
    
