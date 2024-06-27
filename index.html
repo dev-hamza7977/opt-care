@@ -12,12 +12,13 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <section class="container-fluid">
+    <section class="container-fluid fixed-top navbar-top">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="images/opt-logo.png" alt="logo-img"
@@ -32,16 +33,19 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#about">About Us</a>
                         </li>
-                        <li class="nav-item mx-5">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link" href="#">Disabled</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#treatment">Treatment</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="#">Disabled</a>
+                            <a class="nav-link" href="#doctors">Doctor Listing</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                         <form class="d-flex" role="search">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -115,7 +119,7 @@
         </div>
     </section>
 
-    <section class="container section-cards-1 rounded-4 p-xxl-5">
+    <section class="container section-cards-1 rounded-4 p-xxl-5" data-aos="flip-down">
         <div class="row">
             <div class="col-lg-12 title-benefits text-center pt-4">
                 <h1 class="benefits-text-tit">Benefits with Optcare</h1>
@@ -171,17 +175,16 @@
         </div>
     </section>
 
-    <section class="container abt-us">
-        <h1 class="tit-abt-us text-center mt-5">Who We Are ?</h1>
+    <section class="container abt-us" id="about">
+        <h1 class="tit-abt-us text-center mt-5" data-aos="fade-in">Who We Are ?</h1>
         <div class="row">
-            <div class="col-lg-6" style="
-    height: 60vh;">
+            <div class="col-lg-6" style="height: 60vh;">
                 <img src="images/about-1-removebg-preview.png" class="abt-img-1" alt="abt-img-1">
                 <img src="images/pattern-bg-img.png" alt="pattern-2" class="pattern-img-2" srcset="">
                 <p class="abt-img-txt"> <span class="num-text-abt">30</span> <br> Years Of <br> Experience in <br> This
                     Field</p>
             </div>
-            <div class="col-lg-6 mt-5">
+            <div class="col-lg-6 mt-5" data-aos="fade-in">
                 <h1 class="sub-title-abtus">The Great Place Of Eyecare Hospital Center </h1>
                 <p class="def-abt-us">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                     incididunt ut labore
@@ -230,13 +233,12 @@
         <img src="images/services-bg-1.png" class="services-bg-img-1" alt="services-bg-img" srcset="">
         <h1 class="services-tit p-5">Our Services</h1>
         <img src="images/pattern-2.png" class="pattern-services-img-2 img-fluid" alt="pattern-2" srcset="">
-
         <div class="row m-0">
             <div class="col-lg-12 global-div" style="height: 60px;">
                 <p class="global-title">A Global Leader, Treatment <br>
                     of eye Disease</p>
             </div>
-            <div class="col-lg-12 services-card-sec">
+            <div class="col-lg-12 services-card-sec" data-aos="fade-out">
                 <div class=" d-flex justify-content-center">
                     <div
                         class="row row-cols-1 row-cols-md-3 g-xxl-4 g-0 justify-content-center services-card-sec-inner">
@@ -277,7 +279,7 @@
                 </div>
             </div>
         </div>
-        <div class="services-desc container bg-white rounded-top-4">
+        <div class="services-desc container bg-white rounded-top-4" data-aos="fade-in">
             <div class="row g-0 p-2">
                 <div class="col-lg-6">
                     <h1 class="surgical-procedures-title">Surgical Procedures</h1>
@@ -306,7 +308,7 @@
         </div>
     </section>
 
-    <section class="orange-pallete">
+    <section class="orange-pallete" data-aos="flip-right">
         <div class="row p-5 g-0">
             <div class="col-lg-3">
                 <div class="d-lg-flex text-center align-items-center justify-content-center">
@@ -340,7 +342,7 @@
         </div>
     </section>
 
-    <section class="why-choose-us">
+    <section class="why-choose-us" data-aos="zoom-in">
         <div class="row g-0">
             <div class="col-lg-6">
                 <img src="images/chooseus-bg-1.png" alt="bg-img-choose-us" class="choose-us-bg-img img-fluid" srcset="">
@@ -375,7 +377,7 @@
         </div>
     </section>
 
-    <section class="container-fluid px-xxl-4 sec-testimonials">
+    <section class="container-fluid px-xxl-4 sec-testimonials" id="blog" data-aos="zoom-in">
         <h1 class="tit-testimonials text-center">Testimonials</h1>
         <p class="sub-tit-testimonials text-center">What Our Client Say
             <br>About Optcare
@@ -440,7 +442,7 @@
         </div>
     </section>
 
-    <section class="emergency-help-sec">
+    <section class="emergency-help-sec" id="treatment">
         <img src="images/emergency-bg-img.png" class="pattern-emergency-bg img-fluid" alt="pattern-3" srcset="">
         <div class="col-lg-12 text-center p-xxl-5">
             <img src="images/specs-bg-emergency.png" class="img-fluid specs-bg-img align-items-center" alt="specs-img"
@@ -452,9 +454,9 @@
         </div>
     </section>
 
-    <section class="container appoinment">
+    <section class="container appoinment" id="doctors">
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="flip-left">
                 <form class="appointment-form bg-white">
                     <p class="tit-appoinment-form">Get Appoinment If You <span class="text-warning"> Need
                             Consultant</span></p>
@@ -479,7 +481,7 @@
                     </div>
                 </form>
             </div>
-            <div class="col-lg-8 col-optha-1-yt">
+            <div class="col-lg-8 col-optha-1-yt" data-aos="flip-right">
                 <iframe class="youtube-vid" width="900" height="500"
                     src="https://www.youtube.com/embed/L41-CqynUHE?si=xnBW4Q96zFxOxCf5" title="YouTube video player"
                     frameborder="0"
@@ -489,7 +491,7 @@
         </div>
     </section>
 
-    <section class="ophtha-sec container">
+    <section class="ophtha-sec container" data-aos="fade-in">
         <h1 class="optha-tit"> Ophthalmologist </h1>
         <div class="d-lg-flex justify-content-between">
             <p class="sub-tit-optha">The Most Qualified Skillful & <br>
@@ -524,7 +526,7 @@
             <img src="images/pattern-bg-img.png" class="emergency-need-pattern-1" alt="pattern-img" srcset="">
             <img src="images/services-bg-1.png" class="img-fluid img-bg-emergency-need" alt="" srcset="">
             <h1 class="title-emergency-need">Emergency Need</h1>
-            <div class="row pb-5">
+            <div class="row pb-5" data-aos="fade-out">
                 <div class="col-lg-6"><img src="images/ambulance-emergency-need.png" class="ambulance-img" alt=""
                         srcset=""></div>
                 <div class="col-lg-6">
@@ -545,7 +547,7 @@
         </div>
     </section>
 
-    <section class="sec-flex">
+    <section class="sec-flex" data-aos="flip-left">
         <div class="d-flex justify-content-center">
             <img src="images/flex-img-1.jpg" class="flex-img img-fluid" alt="" srcset="">
             <img src="images/flex-img-2.jpg" class="flex-img img-fluid" alt="" srcset="">
@@ -555,7 +557,7 @@
         </div>
     </section>
 
-    <section class="container articles-container">
+    <section class="container articles-container" data-aos="fade-out">
         <h1 class="title-articles">Articles</h1>
         <h2 class="sub-tit-articles text-center">Resources to Keep You Informed <br>
             with Our Blog</h2>
@@ -595,50 +597,111 @@
         </div>
     </section>
 
-    <section class="map">
+    <section class="map" id="contact">
         <iframe class="map"
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9934.18659180951!2d-0.1195192!3d51.5031864!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b900d26973%3A0x4291f3172409ea92!2slastminute.com%20London%20Eye!5e0!3m2!1sen!2sin!4v1719486380783!5m2!1sen!2sin"
-            width="1519" height="750" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade">
-
+            width="1519" height="700" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" data-aos="flip-left">
         </iframe>
         <div class="container">
-        <div class="row g-0">
-            <div class="col-lg-4">
-                <div class="card contact-card">
-                    <div class="card-body  p-0">
-                        <h1 class="heading-contact-hours">Working Hours</h1>
-                        <ul class="contact-time-list">
-                            <li class="p-3">
-                                Mon - Wed : 8:00AM - 7:00PM
-                            </li>
-                            <li class="p-3">
-                                Thu : 8:00AM - 7:00PM
-                            </li>
-                            <li class="p-3">
-                                Fri : 8:00AM - 7:00PM
-                            </li class="p-3">
-                            <li class="p-3">
-                                Sat-Sun : 8:00AM - 7:00PM
-                            </li>
-                        </ul>
-                        <hr class="mx-4" />
-                        <div class="p-xxl-3">
-                            <h2 class="contact-number-heading p-3">Contact Info</h2>
-                            <div class="d-flex p-xxl-3">
-                                <i class="fa-solid fa-envelope foa-contact-sec mx-4"></i>
-                                <p class="text-contact"> Email: sample@example.com</p>
-                            </div>
-                            <div class="d-flex p-xxl-3">
-                                <i class="fa-solid fa-phone foa-contact-sec mx-4"></i>
-                                <p class="text-contact"> Call: +1 (230)-456-155-23</p>
+            <div class="row g-0">
+                <div class="col-lg-4">
+                    <div class="card contact-card">
+                        <div class="card-body  p-0">
+                            <h1 class="heading-contact-hours">Working Hours</h1>
+                            <ul class="contact-time-list">
+                                <li class="p-3">
+                                    Mon - Wed : 8:00AM - 7:00PM
+                                </li>
+                                <li class="p-3">
+                                    Thu : 8:00AM - 7:00PM
+                                </li>
+                                <li class="p-3">
+                                    Fri : 8:00AM - 7:00PM
+                                </li class="p-3">
+                                <li class="p-3">
+                                    Sat-Sun : 8:00AM - 7:00PM
+                                </li>
+                            </ul>
+                            <hr class="mx-4" />
+                            <div class="p-xxl-3">
+                                <h2 class="contact-number-heading p-3">Contact Info</h2>
+                                <div class="d-flex p-xxl-3">
+                                    <i class="fa-solid fa-envelope foa-contact-sec mx-4"></i>
+                                    <p class="text-contact"> Email: sample@example.com</p>
+                                </div>
+                                <div class="d-flex p-xxl-3">
+                                    <i class="fa-solid fa-phone foa-contact-sec mx-4"></i>
+                                    <p class="text-contact"> Call: +1 (230)-456-155-23</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-</div>
+    </section>
+
+    <section class="footer bg-black">
+        <div class="container">
+            <footer class="footer">
+                <div class="d-lg-flex justify-content-evenly navbar-footer-text">
+                    <a href="#" class="py-5 nav-text-footer px-xxl-2">Managment</a>
+                    <a href="#" class="py-5 nav-text-footer px-xxl-2">About Us</a>
+                    <a href="#" class="py-5 nav-text-footer px-xxl-2">Company</a>
+                    <img src="images/opt-logo.png" class="logo-footer" alt="logo-footer">
+                    <a href="#" class="py-5 nav-text-footer px-xxl-2">Career</a>
+                    <a href="#" class="py-5 nav-text-footer px-xxl-2">Location</a>
+                    <a href="#" class="py-5 nav-text-footer px-xxl-2">Company</a>
+                </div>
+                <hr class="p-3 white hr-footer">
+                <div class="d-lg-flex">
+                    <div class="footer-abt-us px-5">
+                        <h1 class="tit-footer">About</h1>
+                        <p class="desc-abt-us pt-3">Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor
+                            incididunt labore dolore
+                            magna aliqua enim ad minim.
+                        </p>
+                        <div class="d-flex">
+                            <i class="fa-brands foa-footer-sec fa-facebook-f"></i>
+                            <i class="fa-brands foa-footer-sec fa-twitter mx-4"></i>
+                            <i class="fa-brands foa-footer-sec fa-linkedin-in"></i>
+                            <i class="fa-brands foa-footer-sec fa-google-plus-g mx-4"></i>
+                        </div>
+                    </div>
+                    <div class="footer-abt-us px-5">
+                        <h1 class="tit-footer">Links</h1>
+                        <div class="d-flex justify-content-evenly navbar-footer-text flex-column pt-3">
+                            <a href="#" class="py-1 px-2">About</a>
+                            <a href="#" class="py-1 px-2">Surgical</a>
+                            <a href="#" class="py-1 px-2">Opthamology</a>
+                            <a href="#" class="py-1 px-2">Lenses</a>
+                            <a href="#" class="py-1 px-2">Laser Eye</a>
+                            <a href="#" class="py-1 px-2">Vision</a>
+                        </div>
+                    </div>
+                    <div class="footer-abt-us px-5">
+                        <h1 class="tit-footer">Services</h1>
+                        <div class="d-flex justify-content-evenly navbar-footer-text flex-column pt-3">
+                            <a href="#" class="py-1 px-2">About</a>
+                            <a href="#" class="py-1 px-2">Surgical</a>
+                            <a href="#" class="py-1 px-2">Opthamology</a>
+                            <a href="#" class="py-1 px-2">Lenses</a>
+                            <a href="#" class="py-1 px-2">Laser Eye</a>
+                            <a href="#" class="py-1 px-2">Vision</a>
+                        </div>
+                    </div>
+                    <div class="footer-abt-us px-5">
+                        <h1 class="tit-footer">Contacts</h1>
+                        <p class="contact-text">Flat 20, Reynolds Neck, North Helenaville, FV77 8WS</p>
+                        <p class="contact-text">+2(305) 587-3407</p>
+                        <p class="contact-text">sample@example.com</p>
+                    </div>
+                </div>
+                <hr class="pt-3 white hr-footer">
+                <p class="text-center copy-right-text mb-0">Optcare © 2024 All Right Reserved</p>
+            </footer>
+        </div>
     </section>
 
 
@@ -652,6 +715,7 @@
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
     <script>
@@ -697,6 +761,10 @@
                 }
             }
         })
+    </script>
+
+    <script>
+        AOS.init();
     </script>
 </body>
 
