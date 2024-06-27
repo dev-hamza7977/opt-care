@@ -541,6 +541,116 @@ font-size: 3vh;
     font-weight: normal;
 }
 
+.emergency-need {
+    background-color: #f0f8ffa3;
+}
+
+.title-emergency-need {
+    padding: 7vh;
+    font-size: 12vh;
+    text-align: center;
+    background: -webkit-linear-gradient(0deg, #d2bba8 30%, #a9dad5 70%);
+    color: transparent !important;
+    background-clip: text !important;
+    font-weight: bold;
+    position: relative;
+    top: 12vh;
+    z-index: 0;
+    left: 15vh;
+}
+
+.sub-title-emergency-need {
+    font-size: 5vh;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+.desc-emergency-need{
+    font-size: 2.5vh;
+
+}
+
+.emergency-need-contact{
+        font-size: 3vh;
+}
+
+.foa-emergency-need{
+    font-size: 4vh;
+    background: #ffa437;
+    padding: 2vh;
+    border-radius: 4vh;
+    color: #c3fff7;
+    margin-right: 20px;
+}
+
+.img-bg-emergency-need{
+        transform: rotateY(-180deg);
+    position: absolute;
+    left: 0vh;
+        width: 45vh;
+}
+
+.ambulance-img{
+        z-index: 1;
+    position: absolute;
+}
+.emergency-need-pattern-1 {
+    position: absolute;
+    top: 876vh;
+    left: 30vh;
+    width: 30vh;
+}
+
+.pattern-img-2-emergency-need {
+    position: absolute;
+    left: 160vh;
+    top: 899vh;
+    width: 30vh;
+}
+
+.flex-img{
+    width: 51.6vh;
+}
+
+.title-articles{
+     /* padding: 7vh; */
+    font-size: 12vh;
+    text-align: center;
+    background: -webkit-linear-gradient(0deg, #d2bba8 30%, #a9dad5 70%);
+    color: transparent !important;
+    background-clip: text !important;
+    font-weight: bold;
+    position: relative;
+    top: 10vh;
+    z-index: 0;
+    /* left: 15vh; */
+}
+
+.sub-tit-articles{
+     font-size: 6vh;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+
+.card-body-articles{
+        position: relative;
+    left: 20px;
+    top: -71px;
+    background-color: aliceblue;
+    border-radius: 5vh;
+}
+
+.card-sub-title{
+    font-size: 3vh;
+    font-weight: bold;
+
+}
+
+
+.card-title-art{
+    width: 13vh;
+}
 @media only screen and (max-width: 852px) {
  
     .bg-owl-img-1{
@@ -971,6 +1081,58 @@ height: 50vh;
 
 .op-doc-img{
     padding-top: 20px;
+}
+
+.img-bg-emergency-need {
+    transform: rotateY(-180deg);
+    position: absolute;
+    left: 0vh;
+    width: 25vh;}
+
+.title-emergency-need {
+    padding: 0vh;
+    font-size: 7vh;
+    text-align: center;
+    background: -webkit-linear-gradient(0deg, #d2bba8 30%, #a9dad5 70%);
+    color: transparent !important;
+    background-clip: text !important;
+    font-weight: bold;
+    position: relative;
+    top: 2vh;
+    z-index: 0;
+    left: 0vh;
+}
+.ambulance-img {
+    z-index: 1;
+    position: static;
+    width: 39vh;}
+
+    .flex-img {
+    width: 11.6vh;
+}
+
+.emergency-need-pattern-1 {
+    position: absolute;
+    top: 1579vh;
+    left: 2vh;
+    width: 19vh;
+    z-index: -1;
+}
+
+.pattern-img-2-emergency-need{
+    display: none;
+}
+
+.card-body-articles {
+    position: relative;
+    left: 6px;
+    top: -71px;
+    background-color: aliceblue;
+    border-radius: 5vh;
+}
+
+.card-title-art{
+    width: 13vh;
 }
 
 }
